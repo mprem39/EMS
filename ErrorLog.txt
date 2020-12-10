@@ -1,0 +1,16 @@
+Message: The model item passed into the dictionary is of type 'EMS.Models.Employee', but this dictionary requires a model item of type 'EMS.ViewModels.EmployeeViewModel'., Type: System.InvalidOperationException, Source: System.Web.Mvc
+Message: An error occurred while updating the entries. See the inner exception for details., Type: System.Data.Entity.Infrastructure.DbUpdateException, Source: EntityFramework
+Message: The view 'EmployeeForm' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Employee/EmployeeForm.aspx
+~/Views/Employee/EmployeeForm.ascx
+~/Views/Shared/EmployeeForm.aspx
+~/Views/Shared/EmployeeForm.ascx
+~/Views/Employee/EmployeeForm.cshtml
+~/Views/Employee/EmployeeForm.vbhtml
+~/Views/Shared/EmployeeForm.cshtml
+~/Views/Shared/EmployeeForm.vbhtml, Type: System.InvalidOperationException, Source: System.Web.Mvc
+Message: E:\a 1\Practicals\MVC\EMS\Views\Employee\Create.cshtml(18): error CS1061: 'Employee' does not contain a definition for 'Employee' and no accessible extension method 'Employee' accepting a first argument of type 'Employee' could be found (are you missing a using directive or an assembly reference?), Type: System.Web.HttpCompileException, Source: System.Web
+Message: E:\a 1\Practicals\MVC\EMS\Views\Employee\Create.cshtml(18): error CS1061: 'Employee' does not contain a definition for 'Employee' and no accessible extension method 'Employee' accepting a first argument of type 'Employee' could be found (are you missing a using directive or an assembly reference?), Type: System.Web.HttpCompileException, Source: System.Web
+Message: E:\a 1\Practicals\MVC\EMS\Views\Employee\Create.cshtml(18): error CS1061: 'Employee' does not contain a definition for 'Employee' and no accessible extension method 'Employee' accepting a first argument of type 'Employee' could be found (are you missing a using directive or an assembly reference?), Type: System.Web.HttpCompileException, Source: System.Web
+Message: E:\a 1\Practicals\MVC\EMS\Views\Employee\Create.cshtml(18): error CS1061: 'Employee' does not contain a definition for 'Employee' and no accessible extension method 'Employee' accepting a first argument of type 'Employee' could be found (are you missing a using directive or an assembly reference?), Type: System.Web.HttpCompileException, Source: System.Web
+Message: E:\a 1\Practicals\MVC\EMS\Views\Employee\Create.cshtml(18): error CS1061: 'Employee' does not contain a definition for 'Employee' and no accessible extension method 'Employee' accepting a first argument of type 'Employee' could be found (are you missing a using directive or an assembly reference?), Type: System.Web.HttpCompileException, Source: System.Web
