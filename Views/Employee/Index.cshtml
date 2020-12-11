@@ -8,7 +8,7 @@
 <hr />
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Add New Employee", "Create")
 </p>
 
 
@@ -18,6 +18,8 @@
         <tr>
             <th>@Html.DisplayNameFor(m => m.EmployeeName)</th>
             <th>@Html.DisplayNameFor(m => m.EmployeeDesignation)</th>
+            <th>@Html.DisplayNameFor(m => m.Salary)</th>
+            <th>@Html.DisplayNameFor(m => m.Email)</th>
             <th>@Html.DisplayNameFor(m => m.EmployeeAddress)</th>
             <th>@Html.DisplayNameFor(m => m.EmployeePassport)</th>
             <th>@Html.DisplayNameFor(m => m.EmployeePhone)</th>
@@ -34,21 +36,23 @@
     <tbody>
         @foreach (var employees in Model)
         {
-            <tr>
-                <td>@employees.EmployeeName</td>
-                <td>@employees.EmployeeDesignation</td>
-                <td>@employees.EmployeeAddress</td>
-                <td>@employees.EmployeePassport</td>
-                <td>@employees.EmployeePhone</td>
-                <td>@employees.EmployeeGender</td>
-                <td>@employees.City</td>
-                <td>@employees.Project</td>
-                <td>@employees.CompanyName</td>
-                <td>@employees.PinCode</td>
-                <td>@employees.Department.DepartmentName</td>
-                <td>@Html.ActionLink("Edit", "Edit", new { id = employees.EmployeeId })</td>
-                <td>@Html.ActionLink("Delete", "Delete", new { id = employees.EmployeeId })</td>
-            </tr>
+        <tr>
+            <td>@employees.EmployeeName</td>
+            <td>@employees.EmployeeDesignation</td>
+            <td>@employees.Salary</td>
+            <td>@employees.Email</td>
+            <td>@employees.EmployeeAddress</td>
+            <td>@employees.EmployeePassport</td>
+            <td>@employees.EmployeePhone</td>
+            <td>@employees.EmployeeGender</td>
+            <td>@employees.City</td>
+            <td>@employees.Project</td>
+            <td>@employees.CompanyName</td>
+            <td>@employees.PinCode</td>
+            <td>@employees.Department.DepartmentName</td>
+            <td>@Html.ActionLink("Edit", "Edit", new { id = employees.EmployeeId })</td>
+            <td>@Html.ActionLink("Delete", "Delete", new { id = employees.EmployeeId })</td>
+        </tr>
 
         }
     </tbody>

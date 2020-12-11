@@ -62,7 +62,7 @@ namespace EMS.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "EmployeeId,EmployeeName,EmployeeDesignation,EmployeeAddress,EmployeePassport,EmployeePhone,EmployeeGender,City,Project,CompanyName,PinCode,DepartmentId")] Employee employee)
+        public ActionResult Edit(Employee employee)
         {
             if (ModelState.IsValid)
             {

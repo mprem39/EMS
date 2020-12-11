@@ -130,6 +130,7 @@
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomValidators\PhoneLengthAttribute.cs" />
     <Compile Include="Filters\CustomExceptionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -141,6 +142,10 @@
     <Compile Include="Migrations\202012101726006_SeedDepartment.cs" />
     <Compile Include="Migrations\202012101726006_SeedDepartment.designer.cs">
       <DependentUpon>202012101726006_SeedDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012110734132_AddedsalaryEmailToModel.cs" />
+    <Compile Include="Migrations\202012110734132_AddedsalaryEmailToModel.designer.cs">
+      <DependentUpon>202012110734132_AddedsalaryEmailToModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Department.cs" />
@@ -212,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012101726006_SeedDepartment.resx">
       <DependentUpon>202012101726006_SeedDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012110734132_AddedsalaryEmailToModel.resx">
+      <DependentUpon>202012110734132_AddedsalaryEmailToModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
